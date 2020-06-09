@@ -32,11 +32,12 @@ jobs:
         cmd: install # npm install/ yarn install
     
  
-    - name: Creating build
-      run: yarn build
+    
       
     - name: installing axios
       run:  npm i axios --save
+    - name: Creating build
+      run: yarn build
     - name: installing surge  
       run: npm install -g surge
     
