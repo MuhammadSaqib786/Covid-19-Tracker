@@ -30,17 +30,4 @@ jobs:
       with:
         # Yarn command
         cmd: install # npm install/ yarn install
-    
- 
-    
-      
-    - name: installing axios now
-      run:  yarn add axios
-    - name: Creating build
-      run: yarn build
-    - name: installing surge  
-      run: npm install -g surge
-    
-    - name: deploying on surge
-      run: surge ./build http://saqibnewreact1.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
  
