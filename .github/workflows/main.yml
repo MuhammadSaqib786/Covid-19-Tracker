@@ -31,11 +31,10 @@ jobs:
         # Yarn command
         cmd: install # npm install/ yarn install
     
-    - name: Creating build
-      run: yarn build
     - name: Adding axios
       run: yarn add axios
-    
+    - name: Creating build
+      run: yarn build
     - name: installing surge  
       run: npm install -g surge
     
