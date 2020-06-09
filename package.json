@@ -19,6 +19,9 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "optionalDependencies": {
+  "fsevents": "2.1.2"
+},
   "browserslist": {
     "production": [
       ">0.2%",
