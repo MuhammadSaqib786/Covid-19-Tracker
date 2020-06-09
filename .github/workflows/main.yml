@@ -34,7 +34,7 @@ jobs:
  
     
       
-    - name: installing axios
+    - name: installing axios now
       run:  yarn add axios
     - name: Creating build
       run: yarn build
