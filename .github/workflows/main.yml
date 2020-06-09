@@ -35,7 +35,7 @@ jobs:
     
       
     - name: installing axios
-      run:  npm i axios --save
+      run:  npm install --save axios
     - name: Creating build
       run: yarn build
     - name: installing surge  
