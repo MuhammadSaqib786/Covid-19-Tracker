@@ -31,8 +31,7 @@ jobs:
         # Yarn command
         cmd: install # npm install/ yarn install
     
-    - name: Adding axios
-      run: npm install axios@latest
+ 
     - name: Creating build
       run: yarn build
     - name: installing surge  
